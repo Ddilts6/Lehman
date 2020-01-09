@@ -1,4 +1,4 @@
 id,address,city,state,zipCode,images,bed,bath,sqft,desc,price,available,availabilityDate,location,features,leaseTerms
-1,2109 N. Carriage Ln.,1,1,1,1,3,1.5,1500,Shitty house in muncie indiana,1,1,1,1,1,1
-2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
-3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+1,123 madeUp drive,muncie,indiana,47306,averageMuncieHouse.jpg,3,7,1200,Shitty house in muncie with too many bathrooms,"$400,000",1,N/A,XxYxZ,features,leaseTerms
+2,123 shutup drive,muncie,indiana,47306,muncie house.jpg,2,5,1200,Shitty house in muncie with too many bathrooms and a walk-in sex dungeon,"$400,000",1,N/A,XxYxZ,features,leaseTerms
+3,123 madeUp drive,muncie,indiana,47306,images,2,5,1200,Shitty house in muncie with too many bathrooms,"$400,000",1,N/A,XxYxZ,features,leaseTerms

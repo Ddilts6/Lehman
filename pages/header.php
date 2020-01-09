@@ -1,8 +1,6 @@
 <html lang="EN">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <body>
-
-
 <!--<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -20,7 +18,7 @@
     </div>
 </nav>
 -->
-<span><b>Lehman Property Management</b> <b style="text-align: right">image.jpg</b></span>
+<img src="../images/thumbnail_Image.jpg" style="width: 100%; height: 30%" alt="lehman image"/>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,6 +40,35 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact Us</a>
+            </li>
+            <li>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                User Login
+            </button>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">User Login</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <label for="username"><h4>Username</h4></label>
+                            <input type="text" id="username">
+                            <br>
+                            <label for="password"><h4>Password</h4></label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </li><!--
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>

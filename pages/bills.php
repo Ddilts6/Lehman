@@ -2,12 +2,14 @@
 
 include("header.php");
 ?>
-<title>bills</title>
+<title>Bills</title>
 
 
 
 <h1>Bill Payment</h1>
 
+<label>Amount</label>
+<input type="number" min="0.01" step="0.01" max="25000000" value="0.00" />
 
 
 <div id="paypal-button"></div>
@@ -23,7 +25,7 @@ include("header.php");
 // Customize button (optional)
         locale: 'en_US',
         style: {
-            size: 'small',
+            size: 'large',
             color: 'gold',
             shape: 'pill',
         },
