@@ -9,7 +9,7 @@ include("header.php");
 <h1>Bill Payment</h1>
 
 <label>Amount</label>
-<input type="number" min="0.01" step="0.01" max="25000000" value="0.00" />
+<input type="number" id="paymentAmount" min="0.01" step="0.01" max="25000000" value="0.00" />
 
 
 <div id="paypal-button"></div>
@@ -34,7 +34,7 @@ include("header.php");
             return actions.payment.create({
                 transactions: [{
                     amount: {
-                        total: '0.01',
+                        total: document.getElementById("paymentAmount").value,
                         currency: 'USD'
                     }
                 }]

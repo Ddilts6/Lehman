@@ -42,33 +42,77 @@
                 <a class="nav-link" href="contact.php">Contact Us</a>
             </li>
             <li>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                User Login
-            </button>
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">User Login</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">
+                    User Login
+                </button>
+                <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="loginTitle">User Login</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
 
-                            <label for="username"><h4>Username</h4></label>
-                            <input type="text" id="username">
-                            <br>
-                            <label for="password"><h4>Password</h4></label>
-                            <input type="password" id="password">
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Login</button>
+                                <label for="username"><h4>Username</h4></label>
+                                <input type="text" id="username">
+                                <br>
+                                <label for="password"><h4>Password</h4></label>
+                                <input type="password" id="password">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" onclick=''  >Login</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </li>
+            <li>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register">
+                   Register
+                </button>
+                <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="registerTitle">Register</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+
+                                <label for="username"><h4>Username</h4></label>
+                                <input type="text" id="registerUsername">
+                                <br>
+                                <label for="registerPassword"><h4>Password</h4></label>
+                                <input type="password" id="registerPassword">
+                                <br>
+                                <label for="registerPasswordConfirm"><h4>Confirm Password</h4></label>
+                                <input type="password" id="registerPasswordConfirm">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" onclick='function registerFunction() {
+                                                                  if (document.getElementById("registerPassword").value.length < 8) {
+                                                                      alert("password too short");
+                                                                      if (document.getElementById("registerPassword").value !== document.getElementById("registerPasswordConfirm").value){
+                                                                        alert("passwords do not match");
+                                                                         if (document.getElementById("registerPassword").includes("%") === false || (document.getElementById("registerPassword").includes("#") === false )){
+                                                                            alert("must contain special character")
+                                                                         }
+                                                                      }
+                                                                  }
+
+                                }
+                                registerFunction();'>Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </li><!--
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>
