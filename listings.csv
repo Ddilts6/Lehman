@@ -2,3 +2,4 @@ id,address,city,state,zipCode,images,bed,bath,sqft,desc,price,available,availabi
 1,123 madeUp drive,muncie,indiana,47306,averageMuncieHouse.jpg,3,7,1200,Shitty house in muncie with too many bathrooms,"$400,000",1,N/A,XxYxZ,features,leaseTerms
 2,123 shutup drive,muncie,indiana,47306,muncie house.jpg,2,5,1200,Shitty house in muncie with too many bathrooms and a walk-in sex dungeon,"$400,000",1,N/A,XxYxZ,features,leaseTerms
 3,123 madeUp drive,muncie,indiana,47306,images,2,5,1200,Shitty house in muncie with too many bathrooms,"$400,000",1,N/A,XxYxZ,features,leaseTerms
+4,"2109 N CARRIAGE LN",MUNCIE,IN,47304,null,5,5,10,"cum cracker",$10,1,2020-01-23,null,"cum cracker","cum cracker"

@@ -13,7 +13,13 @@
 
 </body>
 
-<footer>
 
-</footer>
-</html>
+<?php
+if (isset($_SESSION['userID'])){
+    echo $_SESSION['userID'];
+}
+else {
+    echo 'Not Logged In.';
+}
+include("footer.php");
+?>

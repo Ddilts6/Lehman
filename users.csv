@@ -1,3 +1,8 @@
-userID,username,passwordHash
-1,tim,$2y$10$3m7w0a2I.rizqWeuLMD/JuKG1bmDskG1HrmENdlOrDRb1K5F2YWJO
-2,dihlaghn,$2y$10$3m7w0a2I.rizqWeuLMD/JuKG1bmDskG1HrmENdlOrDRb1K5F2YWJO
+userID,username,passwordHash,superUser
+0,tim,$2y$10$vv3yUylZY9346zsv3FVy6ef9bqNmAnBS4RjDdLeNGQ4Lf6MmJwMaK,1
+0,dilan,$2y$10$C2bWkFxaxKkucvvd9HvMZOiJ4jw7i3CNUKap2uF4i4zOMkgaMA68m,0
+1,dylon,$2y$10$X09PzwtZRExxCCQWS7vQHubHxE87Ntx4hPKXjycG83RBbv2HIx89.,0
+2,dilaghn,$2y$10$YkZTYJbqefGNhb6tYfc6SegdcaFhR14o00hhG9F5FeYfLk2eJP1Sy,0
+3,Timmy,$2y$10$Qp2R8aYNGbAT2gNruRZt3uYy9QAPvcxMCJscTBtDUkDeluPW7oYVu,0
+4,timmy,$2y$10$Zs7d1qEqkSA7XSbtgf6lROMsvU2s0mV/IcofzGs8DvrPuHqYLuo9a,0
+5,fuckboiMcgee,$2y$10$gaZIvu1hJpmQib3ldFU3xetsssqS4G3YYSXskZ8dvQHRwdeBpxCSe,0

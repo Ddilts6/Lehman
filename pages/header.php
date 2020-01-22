@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <html lang="EN">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <body>
@@ -18,6 +21,46 @@
     </div>
 </nav>
 -->
+<script>
+    function registerFunction() {
+        if (document.getElementById("registerPassword").value.length < 8) {
+            alert("password too short");
+            if (document.getElementById("registerPassword").value !== document.getElementById("registerPasswordConfirm").value) {
+                alert("passwords do not match");
+            }
+        } else {
+            $.ajax({
+                type: "POST",
+                data: {
+                    username: document.getElementById("registerUsername").value,
+                    password: document.getElementById("registerPassword").value
+                },
+                url: "register.php",
+                success: function (data) {
+                    alert("account successfully created");
+                }
+            });
+        }
+    }
+
+    function loginFunction() {
+        $.ajax({
+            type: "POST",
+            data: {
+                username: document.getElementById("username").value,
+                password: document.getElementById("password").value
+            },
+            url: "login.php",
+            success: function (data) {
+                alert("Logged In!");
+                location.reload();
+            },
+            error: function (data) {
+                alert('account credentials not found');
+            }
+        });
+    }
+</script>
 <img src="../images/thumbnail_Image.jpg" style="width: 100%; height: 30%" alt="lehman image"/>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -57,14 +100,14 @@
                             <div class="modal-body">
 
                                 <label for="username"><h4>Username</h4></label>
-                                <input type="text" id="username">
+                                <input type="text" required="required" id="username">
                                 <br>
                                 <label for="password"><h4>Password</h4></label>
-                                <input type="password" id="password">
+                                <input type="password" required="required" id="password">
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" onclick=''  >Login</button>
+                                <button type="button" class="btn btn-primary" onclick='loginFunction()'>Login</button>
                             </div>
                         </div>
                     </div>
@@ -96,23 +139,14 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" onclick='function registerFunction() {
-                                                                  if (document.getElementById("registerPassword").value.length < 8) {
-                                                                      alert("password too short");
-                                                                      if (document.getElementById("registerPassword").value !== document.getElementById("registerPasswordConfirm").value){
-                                                                        alert("passwords do not match");
-                                                                         if (document.getElementById("registerPassword").includes("%") === false || (document.getElementById("registerPassword").includes("#") === false )){
-                                                                            alert("must contain special character")
-                                                                         }
-                                                                      }
-                                                                  }
-
-                                }
-                                registerFunction();'>Register</button>
+                                <button type="button" class="btn btn-primary"  data-dismiss="modal"onclick='registerFunction();'>Register</button>
                             </div>
                         </div>
                     </div>
                 </div>
+            </li>
+            <li>
+                <button class="btn btn-primary" onclick="location.href='logout.php';">Logout</button>
             </li><!--
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>

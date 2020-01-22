@@ -50,3 +50,7 @@ include("header.php");
         }
     }, '#paypal-button');
 </script>
+
+<?php
+include("footer.php");
+?>

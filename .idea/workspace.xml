@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa658ce5-c48b-4e7b-a753-b5c8f9a5b839" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bills.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/addBill.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/createListing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lehman.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lehman.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/listings.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/addlisting.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/addlisting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/bills.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bills.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/listings.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/listings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/users.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +59,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tmskinner\PhpstormProjects\Lehman" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -72,6 +94,12 @@
       <workItem from="1578586025092" duration="746000" />
       <workItem from="1578943944076" duration="3237000" />
       <workItem from="1579017385913" duration="157000" />
+      <workItem from="1579026431196" duration="2632000" />
+      <workItem from="1579099665069" duration="6029000" />
+      <workItem from="1579198774480" duration="50000" />
+      <workItem from="1579289113147" duration="6794000" />
+      <workItem from="1579446963494" duration="599000" />
+      <workItem from="1579660355835" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="ERR">
       <created>1578341522564</created>
@@ -101,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578586143194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more stuffs">
+      <created>1579026482132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579026482132</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,33 +147,34 @@
     <MESSAGE value="added index file" />
     <MESSAGE value="stuff" />
     <MESSAGE value="more stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="more stuff" />
+    <MESSAGE value="more stuffs" />
+    <option name="LAST_COMMIT_MESSAGE" value="more stuffs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="2" key="#PHP" timestamp="1578342050802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="2" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1578342050802" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1578586142741">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1579026481712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578586142741" />
-    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1578588794073">
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579026481712" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1579289595296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578588794073" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1578944346030">
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579289595296" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1579290371393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1578944346030" />
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1579290371393" />
     <state x="555" y="57" key="SettingsEditor" timestamp="1578431591348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578431591348" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1578586148112">
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1579026486119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578586148112" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579026486119" />
     <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1578431450017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
